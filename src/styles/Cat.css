@@ -1,0 +1,28 @@
+.cat-container {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+}
+
+.cat-container:hover {
+  box-shadow: 2px 0 10px grey;
+}
+.cat-img img {
+  width: 100%;
+  border-radius: 5px;
+}
+.cat-img img:hover {
+  cursor: pointer;
+}
+.cat-details {
+  margin: 10px;
+}
+.cat-details h3{
+    font-weight: 500;
+    color: #000080;
+}
+.cat-details p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #585858;
+}
