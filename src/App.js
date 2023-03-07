@@ -1,8 +1,10 @@
+import TheLayout from "./views/layout/TheLayout";
+
 function App() {
   return (
-    <div className="App">
-      Hello Bangladesh
-    </div>
+    <>
+      <TheLayout />
+    </>
   );
 }
 
