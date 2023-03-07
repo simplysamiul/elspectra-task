@@ -1,0 +1,72 @@
+[
+  {
+    "cat_id": 1,
+    "cat_name": "Boots",
+    "cat_age": " Infant",
+    "cat_pic": "https://bestinau.com.au/wp-content/uploads/2019/01/Tonkinese-cat.jpg",
+    "cat_nick_name": "Boots_Buttu"
+  },
+  {
+    "cat_id": 2,
+    "cat_name": "Kiddos",
+    "cat_age": " Infant",
+    "cat_pic": "https://bestinau.com.au/wp-content/uploads/2019/01/Tonkinese-cat.jpg",
+    "cat_nick_name": "Kiddos_Kuttu"
+  },
+  {
+    "cat_id": 3,
+    "cat_name": "Loona",
+    "cat_age": " Infant",
+    "cat_pic": "https://bestinau.com.au/wp-content/uploads/2019/01/Tonkinese-cat.jpg",
+    "cat_nick_name": "Loona_Lulu"
+  },
+  {
+    "cat_id": 4,
+    "cat_name": "Chinni",
+    "cat_age": " Infant",
+    "cat_pic": "https://bestinau.com.au/wp-content/uploads/2019/01/Tonkinese-cat.jpg",
+    "cat_nick_name": "Chini_Chinni"
+  },
+  {
+    "cat_id": 5,
+    "cat_name": "Ricky",
+    "cat_age": " Infant",
+    "cat_pic": "https://bestinau.com.au/wp-content/uploads/2019/01/Tonkinese-cat.jpg",
+    "cat_nick_name": "Rick_Ricky"
+  },
+  {
+    "cat_id": 6,
+    "cat_name": "Tabby",
+    "cat_age": " Infant",
+    "cat_pic": "https://bestinau.com.au/wp-content/uploads/2019/01/Tonkinese-cat.jpg",
+    "cat_nick_name": "Tab_Tabby"
+  },
+  {
+    "cat_id": 7,
+    "cat_name": "Tigger",
+    "cat_age": " Infant",
+    "cat_pic": "https://bestinau.com.au/wp-content/uploads/2019/01/Tonkinese-cat.jpg",
+    "cat_nick_name": "Tigger_Tugu"
+  },
+  {
+    "cat_id": 8,
+    "cat_name": "Persian",
+    "cat_age": "Infant",
+    "cat_pic": "https://bestinau.com.au/wp-content/uploads/2019/01/Tonkinese-cat.jpg",
+    "cat_nick_name": "Persian_Peru"
+  },
+  {
+    "cat_id": 9,
+    "cat_name": "Maine Coon",
+    "cat_age": "Infant",
+    "cat_pic": "https://bestinau.com.au/wp-content/uploads/2019/01/Tonkinese-cat.jpg",
+    "cat_nick_name": "Coon_Cunu"
+  },
+  {
+    "cat_id": 10,
+    "cat_name": "Ragdoll",
+    "cat_age": "Infant",
+    "cat_pic": "https://bestinau.com.au/wp-content/uploads/2019/01/Tonkinese-cat.jpg",
+    "cat_nick_name": "Ragu_Ragdoll"
+  }
+]
