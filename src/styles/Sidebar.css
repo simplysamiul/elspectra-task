@@ -1,0 +1,26 @@
+.sidebar-container{
+    width: 15vw;
+    height: 60vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    border: 1px solid navy;
+    position: relative;
+}
+.sidebar-content ul{
+    padding-left: 0;
+    margin: 0;
+}
+.sidebar-content ul:last-child{
+    border: none;
+}
+.sidebar-content ul li {
+    list-style: none;
+    border-bottom: 1px solid navy;
+    padding: 10px 0;
+    text-align: center;
+}
+.sidebar-content ul li:hover{
+    background: navy;
+    color: white;
+    cursor: pointer;
+}

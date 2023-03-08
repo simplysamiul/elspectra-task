@@ -1,23 +1,20 @@
-.cats-container{
-    margin: 30px 40px;
+.cats-container h2 {
+  font-size: 22px;
+  font-weight: 500;
+  color: #000080;
+  position: relative;
 }
-.cats-container h2{
-    font-size: 22px;
-    font-weight: 500;
-    color: #000080;
-    position: relative;
+.cats-container h2::after {
+  content: "";
+  position: absolute;
+  width: 70px;
+  height: 3px;
+  background: #000080;
+  left: 0;
+  bottom: 0;
 }
-.cats-container h2::after{
-    content: "";
-    position: absolute;
-    width: 70px;
-    height: 3px;
-    background: #000080;
-    left: 0;
-    bottom: 0;
-}
-.cats-content{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
+.cats-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
 }
