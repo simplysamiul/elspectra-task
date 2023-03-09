@@ -4,7 +4,6 @@ import '../../../../styles/ClickedCart.css';
 
 const ClickedCart = () => {
   const clickedCat = useSelector((state) => state?.showCart[0]);
-  // const { cat_name, cat_nick_name, cat_pic } = clickedCat;
 
   return (
     <>

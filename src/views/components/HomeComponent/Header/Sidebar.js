@@ -26,12 +26,6 @@ const Sidebar = () => {
   }, []);
   const allCats = useSelector((state) => state?.cart);
   const dispatch = useDispatch();
-  const handelClickedCart = (cat) => {
-    dispatch(addToCart(cat));
-    dispatch(showCat(cat))
-  }
-  const allCat = useSelector((state) => state?.cart);
-  console.log(allCat)
 
   return (
     <div className="sidebar-container">
@@ -39,7 +33,7 @@ const Sidebar = () => {
         <ul>
           {cats.map((cat) => {
             return (
-              <li key={cat._id} onClick={() => handelClickedCart(cat)}>
+              <li key={cat._id} onClick={() => dispatch(showCat(cat))}>
                 {cat.cat_name}
                 {allCats.map((item) =>
                   item._id === cat._id ? `(${item.qty})` : ""
