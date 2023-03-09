@@ -1,12 +1,23 @@
 import React from "react";
+import { useDispatch } from "react-redux";
+import { addToCart, showCat } from "../../../redux/actions/cartAction";
 import "../../../styles/Cat.css";
 
 const Cat = ({ cat }) => {
   const { cat_name, cat_nick_name, cat_pic } = cat;
+  const dispatch = useDispatch();
+  const handelClickedCart = () => {
+    dispatch(addToCart(cat));
+    dispatch(showCat(cat))
+  };
   return (
     <div className="cat-container">
       <div className="cat-img">
-        <img src={cat_pic} alt="Cat img not found..!" />
+        <img
+          onClick={handelClickedCart}
+          src={cat_pic}
+          alt="Cat img not found..!"
+        />
       </div>
       <div className="cat-details">
         <h3>{cat_name}</h3>

@@ -1,0 +1,8 @@
+.clicked-cat-img img{
+    width: 70%;
+}
+
+.notiffy-text{
+    display: flex;
+    align-items: center;
+}

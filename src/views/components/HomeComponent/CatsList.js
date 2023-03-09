@@ -1,7 +1,8 @@
 import React, { useMemo, useState } from "react";
 import CatService from "../../../api/cat.service";
 import Cat from "./Cat";
-import '../../../styles/CatList.css';
+import "../../../styles/CatList.css";
+import { useSelector } from "react-redux";
 
 const CatList = () => {
   const [cats, setCats] = useState([]);
@@ -19,7 +20,7 @@ const CatList = () => {
       setLoading(false);
       console.log(error.message);
     }
-  }; 
+  };
   useMemo(() => {
     getAllCats();
   }, []);
@@ -28,8 +29,8 @@ const CatList = () => {
       {loading ? (
         <h1>Loading...</h1>
       ) : (
-          <div className="cats-container">
-            <h2>Cat Image Gallery</h2>
+        <div className="cats-container">
+          <h2>Cat Image Gallery</h2>
           <div className="cats-content">
             {cats.map((cat) => (
               <Cat key={cat._id} cat={cat} />
